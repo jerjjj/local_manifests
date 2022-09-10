@@ -7,15 +7,15 @@
 
  <!-- Device Trees -->
   <project path="device/xiaomi/merlinx" name="android_device_xiaomi_merlinx" remote="jerjjj"/>
-  <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="jerjjj"/>
+  <project path="device/xiaomi/mt6768-common" name="6768Team/android_device_xiaomi_mt6768-common" remote="github" reversion="lineage-20"/>
  
  <!-- Kernel -->
   <!-- use prebuild kernel -->
 
  <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/merlinx" name="android_vendor_xiaomi_merlinx" remote="jerjjj"/>
+  <project path="vendor/xiaomi/merlinx" name="6768Team/android_vendor_xiaomi_merlinx" remote="github" reversion="lineage-20"/>
   
  <!-- Extras -->
-  <project path="device/mediatek/sepolicy_vndr" name="ArrowOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="arrow-13.0"/>
+  <project path="device/mediatek/sepolicy_vndr" name="6768Team/android_device_mediatek_sepolicy_vndr" remote="github" revision="lineage-20.0"/>
 
 </manifest>

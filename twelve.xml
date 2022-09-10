@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="jerjjj"
+           fetch="https://github.com/jerjjj"
+           revision="12"/>
+
+ <!-- Device Trees -->
+  <project path="device/xiaomi/merlinx" name="android_device_xiaomi_merlinx" remote="jerjjj"/>
+  <project path="device/xiaomi/mt6768-common" name="6768Team/android_device_xiaomi_mt6768-common" remote="github" revision="lineage-19.1-S"/>
+ 
+ <!-- Kernel -->
+  <!-- use prebuild kernel -->
+  
+ <!-- Vendor Trees -->
+  <project path="vendor/xiaomi/merlinx" name="6768Team/android_vendor_xiaomi_merlinx" remote="github" reversion="lineage-19.1-S"/>
+  
+ <!-- Extras -->
+  <project path="device/mediatek/sepolicy_vndr" name="6768Team/android_device_mediatek_sepolicy_vndr" remote="github" revision="lineage-19.1-S"/>
+
+</manifest>
