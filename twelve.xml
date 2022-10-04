@@ -6,7 +6,7 @@
            revision="12"/>
 
   <remote  name="6768Team"
-           fetch="https://github.com/6768Team
+           fetch="https://github.com/6768Team"
            revision="lineage-19.1-S"/>
                       
  <!-- Device Trees -->
@@ -14,7 +14,7 @@
   <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="6768Team"/>
  
  <!-- Kernel -->
-  <project path="kernel/xiaomi/merlinx" name="Redmi-MT6768/android_kernel_xiaomi_merlinx" remote="github" reversion="twelve"/>
+  <project path="kernel/xiaomi/mt6768" name="Redmi-MT6768/android_kernel_xiaomi_mt6768" remote="github" reversion="twelve"/>
   
  <!-- Vendor Trees -->
   <project path="vendor/xiaomi/merlinx" name="android_vendor_xiaomi_merlinx" remote="6768Team"/>
